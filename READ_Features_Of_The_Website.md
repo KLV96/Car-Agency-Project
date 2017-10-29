@@ -5,9 +5,9 @@
     * greatly designed chat system
   
  **The customer is able to:** 
-    * Make an order
-    * start chat with admin 
-    * View Conversation 
+    *Make an order
+    *start chat with admin 
+    *View Conversation 
   
  **The admin is able to:** 
     * Add Customers
