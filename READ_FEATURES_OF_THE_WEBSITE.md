@@ -25,4 +25,4 @@
  * delete existing customers.
  * Change passowrds of existing customers.
     
-Please not that all these features are requested by the client.
+Please note that all these features are requested by the client.
