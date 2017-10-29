@@ -1,13 +1,13 @@
 # Car_Agency_Project
 
 **This project was created for real client. The website has the following features:** 
-    * Secure login in system for two types of users ( Customers and the Admin )
-    * greatly designed chat system
+    - Secure login in system for two types of users ( Customers and the Admin )
+    - greatly designed chat system
   
  **The customer is able to:** 
-    *Make an order
-    *start chat with admin 
-    *View Conversation 
+    - Make an order
+    - start chat with admin 
+    - View Conversation 
   
  **The admin is able to:** 
     * Add Customers
