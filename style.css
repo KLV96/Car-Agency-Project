@@ -1,0 +1,625 @@
+p
+{
+	text-align: center;
+	color: #efdbd0;
+	font-weight: bold;
+}
+
+body 
+{
+	
+	background-image:url(img/bg.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+nav a
+{
+	text-decoration: none;
+	color: inherit;
+	padding: 20px;
+	display: inline-block;
+
+}
+
+a
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+
+nav ul
+{
+	background-color: #f49d33; 
+	overflow: hidden;
+	color: white;
+	padding: 0;
+	text-align: center;
+	-webkit-transition: max-height 0.4s;
+	-ms-transition: max-height 0.4s;
+	-moz-transition: max-height 0.4s;
+	-o-transition: max-height 0.4s;
+	transition: max-height 0.4s;
+
+}
+
+nav ul li 
+{
+	display: inline-block;
+
+}
+
+nav ul li:hover 
+{
+	background-color: #e8d75c;
+}
+
+.handle
+{
+	background: #ff7905;
+	text-align: left;
+	box-sizing:  border-box;
+	padding: 15px 10px;
+	cursor: pointer;
+	color: white;
+	display: none;
+	text-align: center;
+}
+
+.container
+{
+	width:300px;
+	height: 350px;
+	text-align: center;
+	background-color: rgba(236, 240, 241,0.7);
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+
+.container input[type="text"], .container input[type="password"]
+{
+	height: 45px;
+	font-size: 18px;
+	margin-bottom: 15px;
+	background-color: #fff;
+	padding-left: 40px;
+}
+
+.container image
+{
+	width: 30px;
+	height: 30px;
+	margin-top: -60px;
+	margin-bottom: 30px;
+}
+
+.form-input::before
+{
+	content: "\f007";
+	position: absolute;
+	font-family: "FontAwesome";
+	padding-left: 10px;
+	padding-top: 5px; 
+	font-size:32px;
+	color:#F5AB35;
+}
+
+.bigger_height_error_msg h4
+{
+	width:300px;
+	height: 25px;
+	text-align: center;
+	padding: 2px 20px;
+	background-color: rgba(0, 0, 0,0.5);
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.ChangePassword_errorMessage h4
+{
+	width:300px;
+	height: 25px;
+	text-align: center;
+	padding: 2px 20px;
+	background-color: rgba(0, 0, 0,0.5);
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+@media screen and (max-width: 600px)
+{
+	nav ul
+	{
+		max-height: 0;
+	}
+
+	.showing
+	{
+		max-height: 30em;
+	}
+
+	nav ul li 
+	{
+		box-sizing: border-box;
+		width: 100%;
+		padding: 0px;
+	}
+	
+	.handle
+	{
+		display: block;
+	}
+
+	body 
+	{
+		background-size: inherit;
+	}
+
+	.container
+	{
+		margin-top: 80px;
+	}
+
+	.bigger_height_error_msg h4
+	{
+		height: 45px;
+	}
+
+	.ChangePassword_errorMessage h4
+	{
+		height: 45px;
+	}
+
+	nav a
+	{
+        padding-right: 75px; 
+        padding-left: 75px;
+        display: inline-block;
+	}
+	
+}
+
+.form-input:nth-child(2)::before
+{
+	content: "\f023";
+}
+
+.btn-login
+{
+	height: 45px;
+	padding: 15px 25px;
+	color: #fff;
+	border-radius: 4px;
+	border: none;
+	background-color: #2ECC71;
+	border-bottom: 4px solid #27AE60 ;
+
+}
+
+.sending_Messages
+{
+	width:300px;
+	height: 400px;
+	text-align: center;
+	background-color: rgba(191, 134, 64,0.75);
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.sending_Messages input[type="text"]
+{
+	height: 40px;
+	width: 200px;
+	font-size: 18px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	background-color: #fff;
+	text-align: center;
+}
+
+.sending_Messages textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;
+}
+
+.sending_Messages input[type="submit"]
+{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.adding_customers
+{
+	width:280px;
+	height: 470px;
+	text-align: center;
+	background-color: rgba(191, 134, 64,0.75);
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.adding_customers input[type="text"], .adding_customers input[type="password"]
+{
+	height: 40px;
+	width: 175px;
+	font-size: 18px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	background-color: #fff;
+	padding-left: 20px;
+}
+
+#btn_addCustomer
+{
+ 	background-color: #ff8c00;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;	
+}
+
+.username_errorMessage h4
+{
+	width:400px;
+	height: 25px;
+	text-align: center;
+	padding: 2px 20px;
+	background-color: rgba(0, 0, 0,0.5);
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.customer_error_msg h4
+{
+	width:300px;
+	height: 25px;
+	text-align: center;
+	padding: 2px 20px;
+	background-color: rgba(0, 0, 0,0.5);
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+
+
+
+
+
+.Customer_Inbox_message h4
+{
+	width:300px;
+	height: 50px;
+	text-align: center;
+	padding: 2px 20px;
+	background-color: rgba(0, 0, 0,0.5);
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.change_Password
+{
+	width:280px;
+	height: 245px;
+	text-align: center;
+	background-color: rgba(191, 134, 64,0.75);
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.change_Password input[type="text"]
+{
+	height: 40px;
+	width: 175px;
+	font-size: 18px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	background-color: #fff;
+	padding-left: 20px;
+}
+
+.change_Password input[type="password"]
+{
+	height: 40px;
+	width: 175px;
+	font-size: 17px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	background-color: #fff;
+	padding-left: 10px;
+}
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+table tr {
+  background: #F3DFBC;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  background: #F4CD88;
+}
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+
+  }
+  table caption {
+    font-size: 1.3em;
+  }
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+    
+  }
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    margin-left: .625em;
+
+  }
+  table td:before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+
+}
+
+  
+
+
+.adding_orders
+{
+	width:290px;
+	height: 300px;
+	text-align: center;
+	background-color: rgba(191, 134, 64,0.75);
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.adding_orders input[type="text"]
+{
+	height: 30px;
+	width: 100px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	background-color: #fff;
+	text-align: center;
+}
+
+
+ .center_This
+{
+	text-indent: 150px;
+}
+
+.conversations h2
+{
+	text-align: center;
+}
+
+
+h3 {
+  text-shadow: 0 1px 0 #542400,
+               0 2px 0 #f2ddcb,
+               0 3px 0 #f2ddcb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #b9b9b9,
+               0 6px 1px rgba(232,190,160,.1),
+               0 0 5px rgba(232,190,160,.1),
+               0 1px 3px rgba(232,190,160,.3),
+               0 3px 5px rgba(232,190,160,.2),
+               0 5px 10px rgba(232,190,160,.25),
+               0 10px 10px rgba(232,190,160,.2),
+               0 20px 20px rgba(232,190,160,.15);
+               font-size: 30px;
+               color: #421900;
+}
+
+.typewriter h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .1em solid transparent;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .5em;
+  /* Adjust as needed */
+  animation: typing 5s steps(60), blink-caret 5s;
+  text-align: center;
+}
+
+
+/* The typing effect */
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+  to {
+    width: 80%
+  }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent
+  }
+  50% {
+    border-color: orange
+  }
+}
+
+.conversation
+{
+	width:280px;
+	height: 80px;
+	text-align: center;
+	background-color: rgba(191, 134, 64,0.4);
+	border-radius: 4px;
+	margin: 0 auto;
+}
+
+
+
+.message
+{
+	width:100%;
+	height: 35px;
+	background-color: rgba(255, 210, 107, 0.6) ;
+	border-radius: 4px;
+	word-wrap: break-word;
+}
+
+.heading
+{
+	color:black;
+}
+
+.text_admin
+{
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: rgba(98,98,98,0.75);
+	text-align: left;
+	color: white;
+	word-wrap: break-word;
+	color : #EEA90B;
+	padding-left: 10px;	
+	padding-right: 10px;	
+	
+}
+
+.text_customer
+{
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: rgba(98,98,98,0.75);
+	text-align: right;
+	color: white;
+	word-wrap: break-word;
+	color : #EEA90B;
+	padding-left: 10px;	
+	padding-right: 10px;
+
+
+}
+
+.Sender_in_Inbox textarea 
+{
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    bottom:0%;
+    background-color: #393838;
+    width: 100%; 
+    color: white;
+    left:0%;
+    padding-top: 8px;
+
+}
+
+.Sender_in_Inbox ::-webkit-input-placeholder { /* Chrome */
+  color: red;
+  text-indent: 10px;
+}
+
+.Sender_in_Inbox ::-ms-input-placeholder { /* IE 10+ */
+  color: red;
+  text-indent: 10px;
+}
+.Sender_in_Inbox ::-moz-placeholder { /* Firefox 19+ */
+  color: red;
+  text-indent: 10px;
+  opacity: 1;
+}
+.Sender_in_Inbox :-moz-placeholder { /* Firefox 4 - 18 */
+  color: red;
+  text-indent: 10px;
+  opacity: 1;
+}
+
+.space { margin-top: 100px; }
+
+.Long_space { margin-top: 150px; }
+
