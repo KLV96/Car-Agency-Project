@@ -1,6 +1,5 @@
-# Car Agency Project
+# Car Seat Covers Project
 
-This project was done on the summer 2017. I self learned PHP and implemeted what I learnt in the first year module [Database System](https://www.kcl.ac.uk/nms/depts/informatics/study/current/handbook/Progs/Modules/4CCS1DBS.aspx). This project was created for real client. 
 
 ### Programming Languages used:
 * HTML/HTML5
