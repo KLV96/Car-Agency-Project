@@ -1,4 +1,4 @@
-# Car Agency Project
+# Car Seat Covers Project
 
 
 ### Programming Languages used:
